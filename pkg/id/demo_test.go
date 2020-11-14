@@ -1,6 +1,6 @@
 // this library just for test slug genreate id
 
-package id
+package id_test
 
 import "log"
 
