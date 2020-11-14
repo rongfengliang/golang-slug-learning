@@ -11,7 +11,7 @@ func Example_GenerateSlugID() {
 }
 
 //  example for generate id
-func Example_GenerateSlugID() {
-	slug := GenerateSlugID("荣锋亮的测试博客")
+func Example_GenerateSlugIDLang() {
+	slug := GenerateSlugIDLang("荣锋亮的测试博客", "en")
 	log.Println(slug)
 }
