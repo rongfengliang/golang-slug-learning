@@ -1,4 +1,4 @@
-module appdemo
+module github.com/rongfengliang/golang-slug-learning
 
 go 1.15
 

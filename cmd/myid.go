@@ -1,8 +1,9 @@
 package main
 
 import (
-	"appdemo/pkg/id"
 	"log"
+
+	"github.com/rongfengliang/golang-slug-learning/pkg/id"
 )
 
 func main() {
