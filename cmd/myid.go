@@ -1,3 +1,6 @@
+// copyright to rongfengliang
+
+// test slug id generate
 package main
 
 import (
