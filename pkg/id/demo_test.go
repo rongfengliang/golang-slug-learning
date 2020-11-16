@@ -2,16 +2,20 @@
 
 package id_test
 
-import "log"
+import (
+	"log"
+
+	"github.com/rongfengliang/golang-slug-learning/v2/pkg/id"
+)
 
 //  example for generate id
 func ExampleGenerateSlugID() {
-	slug := GenerateSlugID("荣锋亮的测试博客")
+	slug := id.GenerateSlugID("荣锋亮的测试博客")
 	log.Println(slug)
 }
 
 //  example for generate id
 func ExampleGenerateSlugIDLang() {
-	slug := GenerateSlugIDLang("荣锋亮的测试博客", "en")
+	slug := id.GenerateSlugIDLang("荣锋亮的测试博客", "en")
 	log.Println(slug)
 }
